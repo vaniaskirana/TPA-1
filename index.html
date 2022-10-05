@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vania Kirana | FrontEnd Development</title>
+
+    <!-- internal css -->
+    <style>
+        *{
+            font-family: 'Poppins';
+            list-style: none;
+            text-decoration: none;
+            background-color: pink;
+        }
+
+        nav ul{
+            border: 1px;
+            background-color: pink;
+            color: black;
+            padding: 1px;
+            margin:0px;
+            text-align: left;
+            /* display: inline-block; */
+            /* vertical-align: top; */
+        }
+
+        nav li {
+            color: paleturquoise;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 1px;
+        }
+
+        nav a {
+            color: white;
+            border-bottom: 1px;
+        }
+
+        ul li a:hover{
+            color:aqua;
+            border-color: black;
+
+        }
+
+        ul li a{
+            padding: 0px 5px;
+            border-radius: 25px;
+        }
+
+        #navbar{
+            display:flex;
+            margin:0px;
+            padding:10px;
+            align-items: center;
+
+        }
+
+        .logo{
+            position: relative; 
+            right: -700px;
+            color: white;
+            padding: 5px;
+        } 
+
+        /* GRID CSS */
+
+        .wrapper{
+            display: grid;
+            grid-template-columns: 200px 400px 500px ;
+            grid-template-rows: 140px;
+            border: 10px;
+            margin: 1px;
+            padding: 1px;
+        }
+        
+        .box1{
+            grid-column: 3;
+            grid-row: 1/3;
+            margin-left: 200px;    
+            margin-top: 50px;     
+        }
+
+        .box2{
+            gap: 50px 100px;
+            column-gap: 500px;
+            grid-column: 1/3;
+            grid-row: 1;
+            margin-left: 125px;  
+            margin-top: 50px;     
+
+        }
+
+    
+
+        
+
+
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        
+        <ul>
+
+        <section id="navbar">
+        <li><img src="me.png" alt="me" width="45" height="45"></li>
+        <li><a href="">Home</a> |</li>
+        <li><a href="">About</a>    |</li>
+        <li><a href="">Portofolio</a>   |</li>
+        <li><a href="">Article</a>  |</li>
+
+        <section class="logo">
+        <a class="fa fa-instagram" href="https://www.instagram.com/vania.kirana/" style="font-size:36px"></a>
+        <a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/vania-sasikirana" style="font-size:36px"></a>
+        <a class="fa fa-github" href="https://github.com/vaniaskirana" style="font-size:36px"></a>
+        </section>
+        </div>
+        
+        </ul>
+
+    </nav>
+
+    <div class="wrapper">
+        <div class="box1">
+            <img src="me.png" alt="me" width="150" height="150">
+            <p>
+                Hello! This is Vania, I'm a student who has 
+                Interested in the world of website Development.
+            </p>
+        </div>
+        
+        <!-- <div class="box2"> -->
+            <div class="box2">
+            <div class="box2a">
+                <i class="fa fa-key" aria-hidden="true" style="font-size:36px"></i>
+                <p>Able to operate multiple languages
+                    programming languages ​​such as C, C++, PHP,
+                    Golang, Java, and Javascript. Also supported tools
+                like HTML and CSS</p>
+            </div>
+            
+            <div class="box2b">
+                
+                <i class="fa fa-wrench" aria-hidden="true" style="font-size:36px"></i>
+                <p>Able to operate text editor such as
+                    Visual Studio Code, Sublime Text, Netbeans, and
+                    Adobe Dreamweaver 2021.</p>
+            </div>
+            </div>
+
+
+        <!-- </div> -->
+
+    </div>
+
+
+</body>
+</html>
