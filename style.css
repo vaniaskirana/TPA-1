@@ -211,10 +211,10 @@ body{
     display: inline-block;
     padding: 5px 0 5px 10px;
     border-radius: inherit;
-    animation: load 2s 0s;
-    -webkit-animation: load 2s 0s;
-    -moz-animation: load 2s 0s;
-    -o-animation: load 2s 0s;
+    animation: load 10s 0s;
+    -webkit-animation: load 10s 0s;
+    -moz-animation: load 10s 0s;
+    -o-animation: load 10s 0s;
 }
 
 
@@ -276,8 +276,8 @@ body{
 .snowflakes i, .snowflakes i:after, .snowflakes i:before { background: white; }
 .snowflakes i {
 	display: inline-block;
-	-webkit-animation: snowflakes 3s linear 2s 20;
-	-moz-animation: snowflakes 3s linear 2s 20;
+	animation: snowflakes 3s linear 2s 20;
+	animation: snowflakes 3s linear 2s 20;
 	position: relative;
 }
 .snowflakes i:after, .snowflakes i:before {
@@ -287,73 +287,90 @@ body{
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	-webkit-transform: rotate(120deg);
+	transform: rotate(120deg);
 }
-.snowflakes i:before { -webkit-transform: rotate(240deg); }
+.snowflakes i:before { transform: rotate(240deg); }
 
-@-webkit-keyframes snowflakes {
+@keyframes snowflakes {
 	0% {
-		-webkit-transform: translate3d(0,0,0) rotate(0deg) scale(0.6);
+		transform: translate3d(0,0,0) rotate(0deg) scale(0.6);
 	}
 	100% {
-		-webkit-transform: translate3d(15px, 1200px, 0px) rotate(360deg) scale(0.6);
+		transform: translate3d(15px, 1200px, 0px) rotate(360deg) scale(0.6);
 	};
 }
 
 .snowflakes i:nth-child(3n) {
 	width: 16px; height: 4px;
-	-webkit-animation-duration: 4s;
-	-webkit-animation-iteration-count: 30;
-	-webkit-transform-origin: right -45px;
+    animation-duration: 4s;
+            animation-iteration-count: 30;
+            transform-origin: right -45px;
 }
 
 .snowflakes i:nth-child(3n+1) {
 	width: 24px; height: 6px;
-	-webkit-animation-duration: 6s;
-	-webkit-animation-iteration-count: 45;
-	-webkit-transform-origin: right -30px;
+            animation-duration: 6s;
+            animation-iteration-count: 45;
+            transform-origin: right -30px;
 }
 
 .snowflakes i:nth-child(3n+2) {
 	width: 32px; height: 8px;
-	-webkit-animation-duration: 8s;
-	-webkit-animation-iteration-count: 60;
-	-webkit-transform-origin: right -15px;
+	
+            animation-duration: 8s;
+	
+            animation-iteration-count: 60;
+	
+            transform-origin: right -15px;
 }
 	
 /* different delays so they don't all start at the same time */
 .snowflakes i:nth-child(7n) {
     opacity:.3;
-    -webkit-animation-delay: 0s;
-    -webkit-animation-timing-function:ease-in;
+    
+            animation-delay: 0s;
+    
+            animation-timing-function:ease-in;
 }
 .snowflakes i:nth-child(7n+1) {
     opacity:.4;
-    -webkit-animation-delay: 1s;
-    -webkit-animation-timing-function:ease-out;
+    
+            animation-delay: 1s;
+    
+            animation-timing-function:ease-out;
 }
 .snowflakes i:nth-child(7n+2) {
     opacity:.5;
-    -webkit-animation-delay: 1.5s;
-    -webkit-animation-timing-function:linear;
+    
+            animation-delay: 1.5s;
+    
+            animation-timing-function:linear;
 }
 .snowflakes i:nth-child(7n+3) {
     opacity:.6;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-timing-function:ease-in;
+    
+            animation-delay: 2s;
+    
+            animation-timing-function:ease-in;
 }
 .snowflakes i:nth-child(7n+4) {
     opacity:.7;
-    -webkit-animation-delay: 2.5s;
-    -webkit-animation-timing-function:linear;
+    
+            animation-delay: 2.5s;
+    
+            animation-timing-function:linear;
 }
 .snowflakes i:nth-child(7n+5) {
     opacity:.8;
-    -webkit-animation-delay: 3s;
-    -webkit-animation-timing-function:ease-out;
+    
+            animation-delay: 3s;
+    
+            animation-timing-function:ease-out;
 }
 .snowflakes i:nth-child(7n+6) {
     opacity:.9;
-    -webkit-animation-delay: 3.5s;
-    -webkit-animation-timing-function:ease-in;
+    
+            animation-delay: 3.5s;
+    
+            animation-timing-function:ease-in;
 }
