@@ -5,13 +5,12 @@
             /* Styles */
             }
 
-            
-
 
         body{
             background-color: pink;
-            background: rgb(34,193,195);
+            /* background: rgb(34,193,195); */
             background: linear-gradient(0deg, rgba(34,193,195,1) 10%, rgba(255,160,213,1) 78%);
+        
         }
 
         *{
@@ -19,6 +18,9 @@
             list-style: none;
             text-decoration: none;
         }
+
+    
+          /* nav----------- */
 
         nav ul{
             border: 1px;
@@ -127,33 +129,52 @@
 
         }
 
-        /*----------artikel---------------*/
-        .artikel{
+        /*----------artikel di index---------------*/
+        article{ /* tadi ini .artikel*/
             display: grid;
             margin:100px;
-            margin-top: 100px;
-            grid-column: inherit;    
         }
+
+      
 
         article:hover{
             /* background-color: turquoise; */
             color: white;
         }
-        .artikel h2:hover{
+        /* .artikel:hover{
             color: white;
-        }
+        } */
 
         .artikel a{
             color: black;
 
         }
+        .artikel1 a{
+            color: white;
+        }
 
-        /* .artikel button{
+        .artikel1 h3{
+            border: dotted;
+            border-color: aqua;
+            padding: 10px 10px;
+        }
+
+        .fa fa-arrow-left{
+            z-index: 1;
+        }
+
+        .artikel button{
             color: black;
             background-color: pink;
             font-size: 16px;
-            border: black;
-        } */
+            border-style: dotted;
+            border-color: white;
+            position: relative;
+        } 
+
+        .artikel button:hover{
+            border-color: aqua;
+        }
 
 
 /* footer okeeh */
@@ -209,7 +230,7 @@ body{
 }
 
 .skillpage h1:hover{
-    color: pink;
+    color: rgb(75, 246, 255);
 
 
 }
@@ -331,7 +352,7 @@ body{
 	position: relative;
 }
 .snowflakes i:after, .snowflakes i:before {
-	height: 100%;
+	height: 100%; /*bentuk*/
 	width: 100%;
 	content: ".";
 	position: absolute;
@@ -346,7 +367,7 @@ body{
 		transform: translate3d(0,0,0) rotate(0deg) scale(0.6);
 	}
 	100% {
-		transform: translate3d(15px, 1200px, 0px) rotate(360deg) scale(0.6);
+		transform: translate3d(15px, 900px, 0px) rotate(360deg) scale(0.4);
 	};
 }
 
