@@ -142,6 +142,50 @@
 
         }
 
+
+
+        /* about me intro */
+        .aboutmeintro{
+            display: grid;
+            grid-template-columns: 30% 70%;
+        }
+
+        .intro button{
+            background-color: pink;
+            color: black;
+            font-size: 20px;
+            border-radius: 45px;
+        }
+
+        .intro button:hover{
+            background-color: turquoise;
+            color: white;
+
+        }
+
+        .intro{
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+
+        .intro2{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin:20px;
+            padding: 50px;
+        }
+        .intro2 h1{
+            text-align: center;
+        }
+        .intro2 h1:hover{
+            color: aqua;
+        }
+
+        .intro2 h3{
+            color: white;
+            text-align: justify;
+        }
+
         /*----------artikel di index---------------*/
         article{ /* tadi ini .artikel*/
             margin: auto;
