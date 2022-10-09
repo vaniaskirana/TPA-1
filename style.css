@@ -17,6 +17,7 @@
             font-family: 'Poppins';
             list-style: none;
             text-decoration: none;
+            
         }
 
     
@@ -64,11 +65,20 @@
 
         }
 
+        .back a:hover{
+            color:aqua;
+        }
+
         .logo{
-            position: relative; 
-            right: -700px;
+        
+            margin: auto;
+            width: fit-content;
+            width: -moz-fit-content;
+            position: absolute;
+            right: 0px;
             color: white;
             padding: 5px;
+            
         } 
 
         .logo a:hover{
@@ -86,10 +96,13 @@
 
         .wrapper{
             display: grid;
-            grid-template-columns: 200px 200px 500px ;
+            grid-template-columns: 20px 20px 500px ;
             border: 10px;
             margin: 1px;
             padding: 1px;
+            margin: auto;
+            width: fit-content;
+            width: -moz-fit-content;
         }
         
         .box1{
@@ -131,6 +144,9 @@
 
         /*----------artikel di index---------------*/
         article{ /* tadi ini .artikel*/
+            margin: auto;
+            width: fit-content;
+            width: -moz-fit-content;
             display: grid;
             margin:100px;
         }
@@ -149,14 +165,17 @@
             color: black;
 
         }
+
+      
         .artikel1 a{
             color: white;
         }
 
         .artikel1 h3{
             border: dotted;
-            border-color: aqua;
+            border-color: white;
             padding: 10px 10px;
+
         }
 
         .fa fa-arrow-left{
@@ -329,6 +348,35 @@ body{
     width: calc(100% - 10px);
 
 }
+
+
+
+/* badge sertifikat */
+.badge {
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    margin: auto;
+    width: fit-content;
+    width: -moz-fit-content;
+   
+    align-items: center;
+    text-align: center;
+}
+
+.badge h3{
+    color:white;
+}
+
+.badge button{
+    color: black;
+    background-color: rgb(247, 250, 101);
+    border-radius: 20%;
+}
+
+.badge button:hover{
+    background-color: rgb(171, 172, 72);
+}
+
 
 
 
