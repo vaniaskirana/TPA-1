@@ -243,8 +243,8 @@ and (max-width : 680px){
             display: grid;
             grid-template-columns: 50% 50%;
             margin:10px;
-            padding: 80px;
-            column-gap: 15%;
+            padding: 0px;
+            column-gap: 5%;
             justify-items: center;
         }
         .intro2 h1{
