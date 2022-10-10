@@ -242,10 +242,13 @@ and (max-width : 680px){
         .intro2{
             display: flex;
             /* grid-template-columns: 50% 50%; */
-            margin:50px;
+            margin:100px;
             padding: 0px;
-            column-gap: 5%;
+            column-gap: 25%;
             justify-items: center;
+        }
+        .intro2b{
+            padding: 0;
         }
         .intro2 h1{
             text-align: center;
