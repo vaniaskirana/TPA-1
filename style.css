@@ -240,9 +240,9 @@ and (max-width : 680px){
         }
 
         .intro2{
-            display: grid;
-            grid-template-columns: 50% 50%;
-            margin:10px;
+            display: flex;
+            /* grid-template-columns: 50% 50%; */
+            margin:50px;
             padding: 0px;
             column-gap: 5%;
             justify-items: center;
