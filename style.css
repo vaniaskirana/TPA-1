@@ -232,7 +232,7 @@ and (max-width : 680px){
         }
 
         .intro{
-
+            /* display:flex; */
             margin-top: 0px;
             margin-left: 10px;
             position: relative;
@@ -240,11 +240,11 @@ and (max-width : 680px){
         }
 
         .intro2{
-            display: flex;
-            /* grid-template-columns: 50% 50%; */
-            margin:100px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin:15px;
             padding: 0px;
-            column-gap: 25%;
+            column-gap: 5%;
             justify-items: center;
         }
         .intro2b{
